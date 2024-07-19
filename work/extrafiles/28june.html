@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="one"  type="Number" placeholder="enter the number">
+    <input id="two" type="Number" placeholder="enter the number">
+    <button onclick="sum()">add</button>
+    <button onclick="multiply()">multiply</button>
+    <button onclick="divide()">divide</button>
+
+</body>
+<script>
+
+    let n=document.getElementById("one");
+    let p=document.getElementById("two");
+    function sum()
+    {  let n1=n.value;
+        n2=p.value;
+
+        alert((+n1)+(+n2));
+
+    }
+    function multiply()
+    {  let n1=n.value;
+        n2=p.value;
+
+        alert((+n1)*(+n2));
+
+    }
+    function divide()
+    {  let n1=n.value;
+        n2=p.value;
+
+        alert((+n1)/(+n2));
+
+    }
+
+</script>
+</html>

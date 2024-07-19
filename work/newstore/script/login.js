@@ -15,3 +15,20 @@ signupLink.onclick = () => {
   signupBtn.click();
   return false;
 };
+
+
+// Add your custom JavaScript code here. For example, you can add event listeners to form fields or handle form submission.
+
+
+
+
+//************************************************************** */
+// sign up js
+//************************************************************** */
+
+
+
+
+
+//************************************************************** */
+//************************************************************** */

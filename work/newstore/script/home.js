@@ -1,4 +1,5 @@
 let api = "https://resta.onrender.com/categories";
+let cart_arr = [];
 let main = document.getElementById("main");
 
 import nav from "./navbar.js";
@@ -57,7 +58,7 @@ function display(data){
 
 
 }
-let cart_arr=[];
+
 function addToCart(data) {
   alert("prodcut is add to cart");
 

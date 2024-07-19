@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store</title>
+</head>
+<body>
+    <h1>this is store </h1>
+
+    <a href="./settimer.html"> home</a>
+    <input id="img" type="text" placeholder="Enter Url">
+    <button onclick="sub()"> submit</button>
+
+
+</body>
+<script>
+    let img = document.getElementById("img");
+    let arr =[];
+    function sub(){
+        let url = img.value;
+        arr.push(url);
+        localStorage.setItem("url",JSON.stringify(arr));
+        console.log(arr);
+    }
+</script>
+</html>

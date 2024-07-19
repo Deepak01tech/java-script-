@@ -1,0 +1,28 @@
+  #nav{
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: space-around;
+        }
+        #nav a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+        #nav a:hover{
+            background-color: #ddd;
+        }
+
+#main{
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#main div{
+    border: 2px solid red;
+}
+
+#main img {
+    width: 100%;
+}

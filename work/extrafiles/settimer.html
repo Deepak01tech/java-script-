@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+   <a href="./store.html"> store</a>
+   <h1>welcome here</h1>
+   <h2>this is home page</h2>
+   <div id="slider"></div>
+   <button onclick="start()">start</button>
+   <button onclick="stop()">stop</button>
+
+
+
+
+
+</body>
+<script>
+let url_arr = JSON.parse(localStorage.getItem("url"));
+ let slider = document.getElementById("slider");
+ let id;
+ function start()
+ {
+    let index = 0;
+    function count()
+    {
+        if(index == url_arr.length)
+        {
+            index = 0;
+        }
+        slider.innerHTML="";
+        let img = document.createElement("img");
+        img.src = url_arr[index];
+        slider.appendChild(img);
+        index++;
+
+    }
+    id = setInterval(count, 1000);
+ }
+ function stop()
+ {
+    clearInterval(id);
+ }
+
+
+
+</script>
+</html>

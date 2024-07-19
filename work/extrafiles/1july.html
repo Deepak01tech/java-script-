@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container"></div>
+
+</body>
+<script>
+    let v = document.getElementById("container");
+    let obj = [{
+        name: "John",
+        col: "red",
+    },
+     {
+        name: "John",
+        col: "red",
+    },{
+        name: "John",
+        col: "red",
+    },{
+        name: "John",
+        col: "red",
+    },{
+        name: "John",
+        col: "red",
+    },{
+        name: "John",
+        col: "red",
+    }]
+
+    for (let i = 0; i < obj.length; i++) {
+        let h1 = document.createElement("h1");
+        h1.innerText = obj[i].name;
+        h1.style.color = obj[i].col
+        v.append(h1);
+    }
+
+
+</script>
+
+</html>
