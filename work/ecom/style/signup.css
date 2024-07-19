@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+body,
+html,
+form,
+input,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container for the form */
+.form-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    max-width: 100%;
+}
+
+/* Form element styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Paragraph and link styling */
+p {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#container
+{
+    padding: 25px;
+    height: 500px;
+    background: linear-gradient(to right, #ff0099, #49324e);
+}
