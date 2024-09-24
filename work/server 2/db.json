@@ -1,0 +1,298 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Chantal",
+      "email": "clanda0@alexa.com",
+      "gender": "Female"
+    },
+    {
+      "id": 2,
+      "first_name": "Davin",
+      "email": "dknapman1@ucoz.com",
+      "gender": "Male"
+    },
+    {
+      "id": 3,
+      "first_name": "Laurie",
+      "email": "lroll2@sina.com.cn",
+      "gender": "Genderqueer"
+    },
+    {
+      "id": 4,
+      "first_name": "Kaleb",
+      "email": "katlay3@java.com",
+      "gender": "Male"
+    },
+    {
+      "id": 5,
+      "first_name": "Yorgos",
+      "email": "yelbourne4@chronoengine.com",
+      "gender": "Male"
+    },
+    {
+      "id": 6,
+      "first_name": "Meagan",
+      "email": "mbarnwall5@dagondesign.com",
+      "gender": "Female"
+    },
+    {
+      "id": 7,
+      "first_name": "Iorgo",
+      "email": "icutchey6@mashable.com",
+      "gender": "Male"
+    },
+    {
+      "id": 8,
+      "first_name": "Rooney",
+      "email": "rbyrnes7@jiathis.com",
+      "gender": "Male"
+    },
+    {
+      "id": 9,
+      "first_name": "Arlena",
+      "email": "aharvatt8@cyberchimps.com",
+      "gender": "Polygender"
+    },
+    {
+      "id": 10,
+      "first_name": "Brantley",
+      "email": "bmorlon9@github.com",
+      "gender": "Male"
+    },
+    {
+      "id": 11,
+      "first_name": "Caryn",
+      "email": "cdumingosa@harvard.edu",
+      "gender": "Female"
+    },
+    {
+      "id": 12,
+      "first_name": "Lou",
+      "email": "ljerrimb@reddit.com",
+      "gender": "Male"
+    },
+    {
+      "id": 13,
+      "first_name": "Hillie",
+      "email": "hpickstonc@bbb.org",
+      "gender": "Male"
+    },
+    {
+      "id": 14,
+      "first_name": "Arney",
+      "email": "arewbottomd@amazonaws.com",
+      "gender": "Male"
+    },
+    {
+      "id": 15,
+      "first_name": "Jacobo",
+      "email": "jbackmane@nba.com",
+      "gender": "Male"
+    },
+    {
+      "id": 16,
+      "first_name": "Jonathon",
+      "email": "jbuttingf@linkedin.com",
+      "gender": "Male"
+    },
+    {
+      "id": 17,
+      "first_name": "Yehudit",
+      "email": "yspacyg@nih.gov",
+      "gender": "Male"
+    },
+    {
+      "id": 18,
+      "first_name": "Olenolin",
+      "email": "oofeeneyh@t-online.de",
+      "gender": "Male"
+    },
+    {
+      "id": 19,
+      "first_name": "Sharline",
+      "email": "swhitelandi@1und1.de",
+      "gender": "Female"
+    },
+    {
+      "id": 20,
+      "first_name": "Farlay",
+      "email": "fhacquelj@livejournal.com",
+      "gender": "Male"
+    },
+    {
+      "id": 21,
+      "first_name": "Hermia",
+      "email": "hjankuk@nymag.com",
+      "gender": "Female"
+    },
+    {
+      "id": 22,
+      "first_name": "Reece",
+      "email": "retteridgel@123-reg.co.uk",
+      "gender": "Male"
+    },
+    {
+      "id": 23,
+      "first_name": "Josepha",
+      "email": "jwitardm@joomla.org",
+      "gender": "Female"
+    },
+    {
+      "id": 24,
+      "first_name": "Janean",
+      "email": "jtremainen@mit.edu",
+      "gender": "Bigender"
+    },
+    {
+      "id": 25,
+      "first_name": "Nicolea",
+      "email": "nfewstero@reuters.com",
+      "gender": "Female"
+    },
+    {
+      "id": 26,
+      "first_name": "Fayth",
+      "email": "felcocksp@mit.edu",
+      "gender": "Female"
+    },
+    {
+      "id": 27,
+      "first_name": "Flynn",
+      "email": "fgravetq@desdev.cn",
+      "gender": "Bigender"
+    },
+    {
+      "id": 28,
+      "first_name": "Jordanna",
+      "email": "jslorancer@gnu.org",
+      "gender": "Female"
+    },
+    {
+      "id": 29,
+      "first_name": "Renard",
+      "email": "rroosons@typepad.com",
+      "gender": "Male"
+    },
+    {
+      "id": 30,
+      "first_name": "Korey",
+      "email": "kcockhillt@unc.edu",
+      "gender": "Male"
+    },
+    {
+      "id": 31,
+      "first_name": "Dayle",
+      "email": "dburfootu@meetup.com",
+      "gender": "Female"
+    },
+    {
+      "id": 32,
+      "first_name": "Cindie",
+      "email": "cneemv@lulu.com",
+      "gender": "Female"
+    },
+    {
+      "id": 33,
+      "first_name": "Boyd",
+      "email": "bpellingw@tumblr.com",
+      "gender": "Male"
+    },
+    {
+      "id": 34,
+      "first_name": "Emmy",
+      "email": "esiddonsx@apache.org",
+      "gender": "Female"
+    },
+    {
+      "id": 35,
+      "first_name": "Anson",
+      "email": "aporsony@ucsd.edu",
+      "gender": "Male"
+    },
+    {
+      "id": 36,
+      "first_name": "Bettye",
+      "email": "bdreghornz@theatlantic.com",
+      "gender": "Female"
+    },
+    {
+      "id": 37,
+      "first_name": "Carlee",
+      "email": "cnibley10@google.es",
+      "gender": "Female"
+    },
+    {
+      "id": 38,
+      "first_name": "Burr",
+      "email": "btoyer11@issuu.com",
+      "gender": "Male"
+    },
+    {
+      "id": 39,
+      "first_name": "Celesta",
+      "email": "cmcgown12@yahoo.com",
+      "gender": "Female"
+    },
+    {
+      "id": 40,
+      "first_name": "Ely",
+      "email": "ehawtrey13@foxnews.com",
+      "gender": "Male"
+    },
+    {
+      "id": 41,
+      "first_name": "Eryn",
+      "email": "ecoulton14@pen.io",
+      "gender": "Female"
+    },
+    {
+      "id": 42,
+      "first_name": "Daren",
+      "email": "dtaffley15@chronoengine.com",
+      "gender": "Male"
+    },
+    {
+      "id": 43,
+      "first_name": "Conway",
+      "email": "cizzatt16@acquirethisname.com",
+      "gender": "Male"
+    },
+    {
+      "id": 44,
+      "first_name": "Catherine",
+      "email": "cbetjeman17@technorati.com",
+      "gender": "Female"
+    },
+    {
+      "id": 45,
+      "first_name": "Sanford",
+      "email": "solorenshaw18@newyorker.com",
+      "gender": "Male"
+    },
+    {
+      "id": 46,
+      "first_name": "Shermie",
+      "email": "smorcombe19@washington.edu",
+      "gender": "Male"
+    },
+    {
+      "id": 47,
+      "first_name": "Hazlett",
+      "email": "hemett1a@gravatar.com",
+      "gender": "Male"
+    },
+    {
+      "id": 48,
+      "first_name": "Shoshana",
+      "email": "sabraham1b@ovh.net",
+      "gender": "Female"
+    },
+    {
+      "id": 49,
+      "first_name": "Elisha",
+      "email": "ebraid1c@biglobe.ne.jp",
+      "gender": "Female"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main"></div>
+
+</body>
+<script>
+    let main = document.getElementById("main");
+    let api ="http://localhost:3000/comments";
+    console.log(api)
+   getdata();
+    async function getdata(){
+        let response = await fetch(api);
+        let result= await response.json();
+       // return result;
+        console.log(result)
+        display(result);
+
+
+    }
+
+    function display(data)
+    {
+
+        data.forEach((el) =>
+        {
+            let div = document.createElement("div");
+            let h1 = document.createElement("h1");
+            let price = document.createElement("h3");
+            let img = document.createElement("img");
+            h1.textContent = el.title;
+            price.textContent = "Price: $" + el.price;
+            img.src = el.image;
+             div.append(h1, price, img);
+            main.append(div);
+        }
+
+        );
+    }
+
+/*
+"title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+*/
+
+
+
+</script>
+</html>

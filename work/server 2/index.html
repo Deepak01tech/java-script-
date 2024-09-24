@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+   <style>
+    #main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px;
+    }
+    #main div {
+        width: 200px;
+        height: 200px;
+        background-color: lightgray;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+
+   </style>
+
+<body>
+    <div id="main"></div>
+
+</body>
+<script>
+    let main = document.getElementById("main");
+    let div = document.createElement("div");
+    let api = "http://localhost:3000/users";
+
+    getdata();
+     async function getdata(){
+      let response= await fetch(api);
+      let data= await response.json();
+      console.log(data);
+      display(data);
+
+
+     }
+
+     function display(data)
+     {
+        data.forEach((el)=>{
+          let div = document.createElement("div");
+          let h1 = document.createElement("h2");
+          let h4 = document .createElement("h4");
+          let email =document.createElement("p");
+          h1.innerHTML= el.first_name;
+          h4.innerHTML=el.gender;
+         email.innerHTML=el.email;
+          div.appendChild(h1);
+          div.appendChild(h4);
+          div.appendChild(email);
+          main.appendChild(div);
+          console.log(div);
+
+
+         } );
+
+
+     }
+
+
+
+</script>
+</html>
