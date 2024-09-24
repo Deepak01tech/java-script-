@@ -1,1 +1,1 @@
-building a online web store and adding basic functionality to it.
+building a online web store and  saving data into localstorage and using it further.
